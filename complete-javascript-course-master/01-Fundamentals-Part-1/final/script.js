@@ -4,6 +4,13 @@
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
+
+// let is used for undefined variables and later chage it 
+// const to never change the value  so they are imutable that is cant be changed and const 
+variables can be never be empty
+so always try to use const as  it help us 
+so the values cant be changes and less 
+errors will be there.
 ////////////////////////////////////
 // Values and Variables
 console.log("Jonas");
