@@ -110,3 +110,5 @@ if (money) {
 } else {
   console.log("YOU should get a job!");
 }
+
+// new
