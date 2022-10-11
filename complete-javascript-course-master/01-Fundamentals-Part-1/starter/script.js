@@ -112,3 +112,7 @@ if (money) {
 }
 
 // new
+// always use strict operation ===  instead of loose ==
+//
+const age = 22;
+age >= 18 ? console.log("i want a car") : console.log("i want a bike");
