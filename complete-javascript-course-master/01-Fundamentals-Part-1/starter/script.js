@@ -58,3 +58,55 @@ if (markHigherBMI)
 else {
   console.log(`marks  bmi ${bmimark} is lower then john bmi ${BMIJohn}`);
 }
+
+// type conversion and coercion
+const boxes = document.querySelectorAll(".box");
+boxes = darkseagreen;
+
+// /* code from here */
+// var ans=""
+// for(var i=1;i<num;i++)
+//   {
+//     if(num%3==0)
+//       ans="devs";
+//     if(num%4==0)
+//       ans="nest";
+//     if(num%3==0 && num%4==0)
+//       ans="devnest";
+//   }
+// for (var i = 0; i < s.length; i++) {
+//   if (s[i] == "d") countOfD += 1;
+//   // your logic here
+// }
+
+// type corecion
+console.log("i am a " + 23 + " years old student");
+console.log("i am a " + "23" + " years old student");
+console.log("i am a " + string(23) + " years old student");
+//console.log("i am a " + 23 + " years old student");
+
+console.log("10" + "23" + 3); // = 10233
+//whereas
+console.log("23" - "10" - 3); // = 10
+
+console.log("23" * "2"); // =46
+
+let n = "1" + 1; // 11
+n = n - 1; // 11-1
+console.log(n); //10;
+
+// falsy and truly values
+//  all values  that became false on conversion to boolean values
+// initally they are not false;
+// 5 flasy values are 0,'',undefined,null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("jonas")); //string
+console.log(Boolean({})); // objects
+
+const money = 0;
+if (money) {
+  console.log("dont spend it all !");
+} else {
+  console.log("YOU should get a job!");
+}
