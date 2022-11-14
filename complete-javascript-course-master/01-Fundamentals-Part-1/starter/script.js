@@ -118,3 +118,5 @@ const age999 = 22;
 age999 >= 18 ? console.log("i want a car") : console.log("i want a bike");
 
 // debuggiong and tools
+//console.warn();
+// console.error();
