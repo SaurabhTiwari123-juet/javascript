@@ -33,3 +33,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.score').textContent = score;
   }
 });
+
+// project 2
+// modele windows we use generally use in day to day life
+//
